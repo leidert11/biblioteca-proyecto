@@ -1,4 +1,5 @@
 import uri from "../config.js";
+import {listarCategorias} from "../controller/querysSecundarias.js";
 import { getAll, getOne, post, putOne, deleteOne} from "../controller/crud.js";
 const endpoint = "/categorias/";
 const atributos = {
@@ -15,3 +16,4 @@ const atributos = {
 // FOR TEST PUT
 // const obj = {id: 1, nombre: "horror"}
 // console.log(await putOne({obj, atributos, uri, endpoint}));
+console.log(await listarCategorias());

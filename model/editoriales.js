@@ -1,5 +1,5 @@
 import uri from "../config.js";
-
+import {editorialesDirrecion} from "../controller/querysSecundarias.js";
 
 import { getAll, getOne, post, putOne, deleteOne} from "../controller/crud.js";
 const endpoint = "/editoriales/";
@@ -19,3 +19,4 @@ const atributos = {
 // console.log(await putOne({obj, atributos, uri, endpoint}));
 
 // console.log(await getAll({uri, endpoint}))
+console.log(await editorialesDirrecion());

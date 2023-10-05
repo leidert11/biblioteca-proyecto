@@ -1,4 +1,5 @@
 import uri from "../config.js";
+import {autoresNacionalidad} from "../controller/querysSecundarias.js";
 
 import { getAll, getOne, post, putOne, deleteOne} from "../controller/crud.js";
 const endpoint = "/autor/";
@@ -20,3 +21,5 @@ const atributos = {
 // console.log(await deleteOne({id: 2, uri, endpoint}));
 
 // console.log(await getAll({uri, endpoint}))
+
+console.log(await autoresNacionalidad());
