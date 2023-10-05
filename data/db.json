@@ -1,0 +1,86 @@
+{
+  "categorias": [
+    {
+      "nombre": "horror",
+      "id": 1
+    }
+  ],
+  "editoriales": [
+    {
+      "nombre": "el tiempo",
+      "descricion": "esta editorial se fundo hace mas de 100 años",
+      "id": 1
+    },
+    {
+      "nombre": "el tiempo",
+      "descricion": "esta editorial se fundo hace mas de 100 años",
+      "id": 2
+    }
+  ],
+  "estado_libro": [
+    {
+      "nombre": "drama",
+      "descripcion": "esta editorial se fundo hace mas de 100 años",
+      "id": 1
+    }
+  ],
+  "libro": [
+    {
+      "autorId": 21,
+      "categoriaId": 13,
+      "editorialId": 11,
+      "fechaLanzamiento": "2032-10-02",
+      "titulo": "Celestinas",
+      "isbn": "6780",
+      "numPaginacion": 250,
+      "estadoId": 1,
+      "id": 1
+    }
+  ],
+  "prestamo": [
+    {
+      "usuarioId": 2,
+      "libroId": 5,
+      "fechaPrestamo": "2039-10-02",
+      "fechaDevolucion": "2039-11-02",
+      "estado": 1,
+      "id": 1
+    },
+    {
+      "usuarioId": 3,
+      "libroId": 1,
+      "fechaPrestamo": "2029-10-02",
+      "fechaDevolucion": "2032-11-02",
+      "estado": 1,
+      "id": 2
+    }
+  ],
+  "reserva": [
+    {
+      "usuarioId": 2,
+      "libroId": 5,
+      "fechaReserva": "2039-10-02",
+      "fechaResevaFin": "2039-11-02",
+      "estado": 1,
+      "id": 1
+    }
+  ],
+  "autor": [
+    {
+      "nombre": "gabriel",
+      "apellido": "garcia",
+      "nacionalidad": "canada",
+      "id": 1
+    }
+  ],
+  "usuarios": [
+    {
+      "nombre": "audrey",
+      "apellido": "torres",
+      "direccion": "avenida mala vida",
+      "telefono": "+3 1232134343",
+      "email": "donjuan@gmail.com",
+      "id": 1
+    }
+  ]
+}

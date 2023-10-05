@@ -1,0 +1,18 @@
+import uri from "../config.js";
+import { getAll, getOne, post, putOne, deleteOne} from "../controller/crud.js";
+const endpoint = "/estado_libro/";
+const atributos = {
+    nombre: "string",
+    descripcion: "string"
+};
+console.log(await getAll({uri, endpoint}))
+// console.log(await getOne({id:1, uri, endpoint}));
+// console.log(await deleteOne({id: 2, uri, endpoint}));
+
+// FOR TEST POST
+// const obj = {nombre: "drama",descripcion: "esta editorial se fundo hace mas de 100 años"};
+// console.log(await post({obj, atributos, uri, endpoint}));
+
+// FOR TEST PUT
+// const obj = {id: 1, nombre: "horror",descripcion: "esta editorial se fundo hace mas de 100 años"}
+// console.log(await putOne({obj, atributos, uri, endpoint}));
